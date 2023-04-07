@@ -67,7 +67,7 @@ public class ComplexNumbers {
                     System.out.println("Multiplication of complex numbers is "+ res);
             }
             System.out.println("Do you want to continue(Y/N):");
-            char con = myObj.next().charAt(1);
+            char con = myObj.next().charAt(0);
 
             if(con == 'Y'){
                 continue;
